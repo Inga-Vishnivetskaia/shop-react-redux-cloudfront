@@ -1,6 +1,6 @@
 # Links to CloudFront URL and S3-website
-S3-website: http://react-app-course-aws-js.s3-website-us-east-1.amazonaws.com/
-CloudFront: https://d1sr3099py12wq.cloudfront.net/
+S3-website: http://react-app-course-aws-js.s3-website-us-east-1.amazonaws.com/ (S3-website shows 403 Access Denied error)
+CloudFront: https://d22rtei7aj321t.cloudfront.net/
 
 # React-shop-cloudfront
 
