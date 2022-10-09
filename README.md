@@ -1,3 +1,7 @@
+# Links to CloudFront URL and S3-website
+S3-website: http://react-app-course-aws-js.s3-website-us-east-1.amazonaws.com/ (S3-website shows 403 Access Denied error)
+CloudFront: https://d22rtei7aj321t.cloudfront.net/
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:
