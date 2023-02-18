@@ -17,6 +17,10 @@ export default function Products() {
 
   return (
     <Grid container spacing={4}>
+      <Grid item xs={12} sm={12} md={12}>
+        <h2 style={{ textAlign: "center" }}>Welcome to the product page</h2>
+        <h3 style={{ textAlign: "center" }}>Auto deployment with serverless finch and single page app plugin</h3>
+      </Grid>
       {/* eslint-disable-next-line @typescript-eslint/no-unused-vars */}
       {data.map(({ count, ...product }, index) => (
         <Grid item key={product.id} xs={12} sm={6} md={4}>

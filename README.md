@@ -1,3 +1,13 @@
+## Link to Cloudfront website, built, deployed with Serverless-finch and serverless-single-page-app:
+- [Link](https://dv1sfdcz84foq.cloudfront.net/)
+## Link to Cloudfront website manually deployed:
+- [Link](https://d1wdwe3d5veyha.cloudfront.net/)
+
+## Link to S3 bucket website, shows 403 due to restriction in policy:
+- [Link](http://bucket-aws-js4.s3-website.eu-central-1.amazonaws.com/)
+
+
+
 # React-shop-cloudfront
 
 This is frontend starter project for nodejs-aws mentoring program. It uses the following technologies:

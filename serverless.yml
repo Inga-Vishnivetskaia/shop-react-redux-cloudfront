@@ -19,7 +19,7 @@ plugins:
 
 custom:
   client:
-    bucketName: my-store-app
+    bucketName: aws-js-task2
     distributionFolder: dist
   s3BucketName: ${self:custom.client.bucketName}
 
