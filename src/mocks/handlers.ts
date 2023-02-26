@@ -23,7 +23,9 @@ export const handlers = [
     );
   }),
   rest.get(`${API_PATHS.bff}/product/:id`, (req, res, ctx) => {
-    const product = availableProducts.find((p) => p.id === req.params.id);
+    const product = availableProducts.find(
+      (p) => p.productId === req.params.id
+    );
     if (!product) {
       return res(ctx.status(404));
     }
