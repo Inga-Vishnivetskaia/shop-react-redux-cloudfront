@@ -1,3 +1,20 @@
+## Task 4
+- [getProductsList](https://b8uakxnfuh.execute-api.eu-west-1.amazonaws.com/dev/products)
+- [FE App link](https://dv1sfdcz84foq.cloudfront.net/)
+
+## Task 3:
+
+## The getProductsById AND getProductsList lambda functions return a correct response code:
+
+- [getProductsList](https://b8uakxnfuh.execute-api.eu-west-1.amazonaws.com/dev/products)
+- [getProductsById](https://b8uakxnfuh.execute-api.eu-west-1.amazonaws.com/dev/products/3)
+
+## Frontend application is integrated with Product Service:
+
+- [Link](https://dv1sfdcz84foq.cloudfront.net/)
+
+## Task 2:
+
 ## Link to Cloudfront website, built, deployed with Serverless-finch and serverless-single-page-app:
 - [Link](https://dv1sfdcz84foq.cloudfront.net/)
 ## Link to Cloudfront website manually deployed:

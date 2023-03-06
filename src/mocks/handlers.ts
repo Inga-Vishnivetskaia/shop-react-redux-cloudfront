@@ -46,7 +46,7 @@ export const handlers = [
     return res(ctx.status(200));
   }),
   rest.get(`${API_PATHS.order}/order/:id`, (req, res, ctx) => {
-    const order = orders.find((p) => p.id === req.params.id);
+    const order = orders.find((p: any) => p.id === req.params.id);
     if (!order) {
       return res(ctx.status(404));
     }
