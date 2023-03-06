@@ -1,3 +1,7 @@
+## Task 4
+- [getProductsList](https://b8uakxnfuh.execute-api.eu-west-1.amazonaws.com/dev/products)
+- [FE App link](https://dv1sfdcz84foq.cloudfront.net/)
+
 ## Task 3:
 
 ## The getProductsById AND getProductsList lambda functions return a correct response code:

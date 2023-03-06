@@ -23,11 +23,11 @@ export default function CartItems({ items, isEditable }: CartItemsProps) {
         {items.map((cartItem: CartItem) => (
           <ListItem
             sx={{ padding: (theme) => theme.spacing(1, 0) }}
-            key={cartItem.product.productId}
+            key={cartItem.product.id}
           >
             {isEditable && <AddProductToCart product={cartItem.product} />}
             <ListItemText
-              primary={cartItem.product.productName}
+              primary={cartItem.product.title}
               secondary={cartItem.product.description}
             />
             <Typography variant="body2">

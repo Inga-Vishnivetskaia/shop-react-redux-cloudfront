@@ -23,9 +23,7 @@ export const handlers = [
     );
   }),
   rest.get(`${API_PATHS.bff}/product/:id`, (req, res, ctx) => {
-    const product = availableProducts.find(
-      (p) => p.productId === req.params.id
-    );
+    const product = availableProducts.find((p) => p.id === req.params.id);
     if (!product) {
       return res(ctx.status(404));
     }
@@ -48,7 +46,7 @@ export const handlers = [
     return res(ctx.status(200));
   }),
   rest.get(`${API_PATHS.order}/order/:id`, (req, res, ctx) => {
-    const order = orders.find((p) => p.id === req.params.id);
+    const order = orders.find((p: any) => p.id === req.params.id);
     if (!order) {
       return res(ctx.status(404));
     }

@@ -33,9 +33,9 @@ export default function ProductsTable() {
         </TableHead>
         <TableBody>
           {data.map((product) => (
-            <TableRow key={product.productId}>
+            <TableRow key={product.id}>
               <TableCell component="th" scope="row">
-                {product.productName}
+                {product.title}
               </TableCell>
               <TableCell align="right">{product.description}</TableCell>
               <TableCell align="right">
@@ -47,7 +47,7 @@ export default function ProductsTable() {
                   size="small"
                   color="primary"
                   component={Link}
-                  to={`/admin/product-form/${product.productId}`}
+                  to={`/admin/product-form/${product.id}`}
                 >
                   Manage
                 </Button>
@@ -55,8 +55,8 @@ export default function ProductsTable() {
                   size="small"
                   color="secondary"
                   onClick={() => {
-                    if (product.productId) {
-                      deleteAvailableProduct(product.productId, {
+                    if (product.id) {
+                      deleteAvailableProduct(product.id, {
                         onSuccess: invalidateAvailableProducts,
                       });
                     }
